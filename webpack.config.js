@@ -9,7 +9,7 @@ module.exports = {
     },
     resolve: {
         alias: {
-            vue: 'vue/dist/vue.js'
+            'vue': 'vue/dist/vue.js'
         }
     },
     module: {
@@ -18,12 +18,12 @@ module.exports = {
             {
                 // ask webpack to check: if this file ends with .js, then
                 // apply some transforms
-                test: /\.js$/,
+                test: /\.js?$/,
                 // transform it with babel
                 loader: 'babel-loader',
                 // don't transform node_modules folder (which don't need to
                 // be compiled)
-                exclude: /node_modules/
+                exclude: /(node_modules)/
             }
         ]
     }
