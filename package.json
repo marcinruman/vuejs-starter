@@ -27,7 +27,7 @@
     "babel-preset-stage-3": "^6.24.1",
     "babel-runtime": "^6.26.0",
     "webpack": "^3.6.0",
-    "webpack-dev-server": "^2.9.0"
+    "webpack-dev-server": "^3.1.11"
   },
   "dependencies": {
     "babel-preset-env": "^1.6.0",
